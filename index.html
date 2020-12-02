@@ -1,0 +1,495 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!---Owl Carosoul-->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!----Css Style-->
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!---Font Awosome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>MSK World</title>
+</head>
+
+<body>
+    <!---Navbar and header -->
+    <div class="header" id="topheader">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container text-Uppercase p2 ">
+                <a class="navbar-brand font-weight-bold text-white" href="#"><i class="fa fa-book fa-2x  " style="color: #170969; margin: .6rem;"></i>MSK</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto text-uppercase">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="service.html">Service</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="price.html">Price</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="header-section">
+            <div class="section-div">
+                <h1 class="font-weight-bold">We are the web Developer</h1>
+                <p>We create The World Best website</p>
+                <div class="header-buttons">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#LoginModal">Login</button>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#SignModal">Sign-in</button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!----Navbar and header end-->
+    <!--  login Modal -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login to MSK</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SignModal -->
+    <div class="modal fade" id="SignModal" tabindex="-1" aria-labelledby="SignModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SignModalLabel">Sign in MSK</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="exampleInputPassword1">Conform Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign In</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!----three extra header   font Awosome-->
+    <section class="header-extradiv">
+        <div class="container">
+            <div class="row">
+                <div class="extra-div col-lg-4 col-md-4 col-12">
+                    <a href="#">
+                        <i class="fa fa-address-book" style="font-size:36px;color:black"></i>
+                    </a>
+                    <h2>Reading Books</h2>
+                    <p>The eduction is very important for our future without eduction nothing is posible</p>
+                </div>
+                <div class="extra-div col-lg-4 col-md-4 col-12">
+                    <a href="#">
+                        <i class="fa fa-cc-paypal" style="font-size:36px;color:black"></i>
+                    </a>
+                    <h2>Payments</h2>
+                    <p>The eduction is very important for our future without eduction nothing is posible</p>
+                </div>
+                <div class="extra-div col-lg-4 col-md-4 col-12">
+                    <a href="#">
+                        <i class="fa fa-apple" style="font-size:36px;color:black"></i>
+                    </a>
+                    <h2>World Brand</h2>
+                    <p>The eduction is very important for our future without eduction nothing is posible</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!----three extra header  font Awosome end-->
+
+    <!----Offer section starrt-->
+    <section class="serviceoffer" id="servicediv">
+        <div class="container heading text-center">
+            <h1 class="text-center font-weight-bold">What we Learn</h1>
+            <p class="text-center">If we do practice every day we become the best web develope in the world and also a good learner in the the Life.</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="service-div col-lg-6 col-md-12 col-12">
+
+                    <div class="names my-3">
+                        <h3>Html</h3>
+                        <div class="progress w-75">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 100%">100%
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="names my-3">
+                        <h3>CSS</h3>
+                        <div class="progress w-75">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 60%">60%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="names my-3">
+                        <h3>JAVA</h3>
+                        <div class="progress w-75">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 75%">75%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="names my-3 w-75">
+                        <h3>SQL</h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width: 50%">50%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-div col-lg-6 col-md-12 col-12">
+                    <div class="row">
+                        <div class="col-log-2 col-2 servic-icons">
+                            <i class="fa fa-android" style="font-size:36px"></i>
+                        </div>
+                        <div class=" col-lg-10 ">
+                            <h3>Android development</h3>
+                            <p>Create the new features technology for every one in the world </p>
+                        </div>
+                        <div class="col-log-2 col-2 servic-icons ">
+                            <i class="fa fa-chrome " style="font-size:36px "></i>
+                        </div>
+                        <div class="col-lg-10 ">
+                            <h3>WebSite development</h3>
+                            <p>Create the new features technology for every one in the world </p>
+                        </div>
+                        <div class="col-log-2 col-2 servic-icons ">
+                            <i class="fa fa-phone " style="font-size:36px"></i>
+                        </div>
+                        <div class="col-lg-10 ">
+                            <h3>Call 24x7</h3>
+                            <p>Create the new features technology for every one in the world </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!----Offer section End-->
+
+
+
+    <!----blog carosol-->
+    <section>
+        <div class="blog">
+            <div class="container">
+                <div class="owl-carousel owl-theme blog-post">
+                    <div class="blog-content">
+                        <img src="./image/6.jpg" alt="img">
+                        <div class="blog-tittle">
+                            <h3>Web Department</h3>
+                            <button class="btn btn-blog">Search</button>
+                            <span>2 Min</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <img src="./image/3.jpg" alt="img">
+                        <div class="blog-tittle">
+                            <h3>Education Class</h3>
+                            <button class="btn btn-blog">Search</button>
+                            <span>2 Min</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <img src="./image/5.jpg" alt="img">
+                        <div class="blog-tittle">
+                            <h3>Apple Model</h3>
+                            <button class="btn btn-blog">Search </button>
+                            <span>2 Min</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <img src="./image/2.jpg" alt="img">
+                        <div class="blog-tittle">
+                            <h3>London fasion</h3>
+                            <button class="btn btn-blog">fasion</button>
+                            <span>2 Min</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <img src="./image/7.jpg" alt="img">
+                        <div class="blog-tittle">
+                            <h3>Education</h3>
+                            <button class="btn btn-blog">Edu</button>
+                            <span>1 Min</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!---Blog carousel XXXx End-->
+    <!--project Done Start--->
+
+    <section class="project-work my-4">
+        <div class="container heading text-weight-bold">
+            <p class="text-center font-weight-bold"> Number of Site running></p>
+
+
+            <div class="container d-flex justify-content-around align-item-center text-center">
+                <div>
+                    <h1 class="counterup">1400</h1>
+                    <p>CMS INSTALLATION</p>
+                </div>
+                <div>
+                    <h1 class="counterup">900</h1>
+                    <p>Web page</p>
+                </div>
+                <div>
+                    <h1 class="counterup">1000</h1>
+                    <p>Java Project</p>
+                </div>
+                <div>
+                    <h1 class="counterup">1200</h1>
+                    <p>Awosome</p>
+                </div>
+            </div>
+            <div></div>
+    </section>
+
+    <!--project End--->
+
+    <!---- Pricing--->
+    <section class="pricing" id="pricingdiv">
+        <div class="container heading text-center">
+            <h1 class="text-center font-weight-bold">
+                Price for Our Projects
+            </h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="card text-center">
+                        <div class="card-header">Phython</div>
+                        <div class="card-body">
+                            <li>$<span class="money">60</span>/website</li>
+                            <li> py Books</li>
+                            <li>Custom frendly</li>
+                            <li>Webmail Suppoort</li>
+                            <li>24x7 hrs Service</li>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card text-center">
+                        <div class="card-header">Books</div>
+                        <div class="card-body">
+                            <li>$<span class="money">40</span>/website</li>
+                            <li>Books</li>
+                            <li>Custom frendly</li>
+                            <li>mail Suppoort</li>
+                            <li>24x7 hrs Service</li>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card text-center">
+                        <div class="card-header">JAVA</div>
+                        <div class="card-body">
+                            <li>$<span class="money">20</span>/website</li>
+                            <li> Java Books</li>
+                            <li>Custom frendly</li>
+                            <li>Web mail Suppoort</li>
+                            <li>24x7 hrs Service</li>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <br>
+    <!----Pricing End-->
+
+    <!----Customer feed Back-->
+
+    <section class="happyclient">
+
+        <div class="blogextra">
+            <div class="container">
+                <div class="owl-carousel owl-theme blog-postdiv">
+                    <div class="blog-content">
+                        <img src="./image/post-3.jpg" alt="img">
+                        <div class="blog-tittlediv">
+                            <p>“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.
+                            </p>
+                            <h1>Sandy</h1>
+                            <h2>Python Developent</h2>
+                            <span><i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <img src="./image/post-2.jpg" alt="img">
+                        <div class="blog-tittlediv">
+                            <p>“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.
+                            </p>
+                            <h1>Saif</h1>
+                            <h2>JavaScript Developent</h2>
+                            <span class="icons"><i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <img src="./image/post-4.png" alt="img">
+                        <div class="blog-tittlediv">
+                            <p> Education is the passport to the future, for tomorrow belongs to those who prepare for it today.
+                            </p>
+                            <h1>Mantasha</h1>
+                            <h2>Java Developent</h2>
+                            <span class="icons"><i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <img src="./image/post-5.png" alt="img">
+                        <div class="blog-tittlediv">
+                            <p> Education is the passport to the future, for tomorrow belongs to those who prepare for it today.
+                            </p>
+                            <h1>Msk Love</h1>
+                            <h2>Web Developent</h2>
+                            <span><i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container heading text-center">
+                <h1 class=" custemer-heading text-center font-weight-bold">
+                    Happy Client
+                </h1>
+                <p class="text-capitalized "> Our Satisfied Custumer Says
+                    <span class="up"><i class="fa fa-thumbs-up "></i>
+                </span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!---Footer-->
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2020-2021 MSK, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+    <!---Footer end-->
+
+
+    <!-- Optional JavaScript -->
+
+    <script src="./Js/Jquery3.5.1.min.js"></script>
+
+
+
+    <script src="./Js/owl.carousel.js"></script>
+
+    <script src="./jquery.counterup.min.js">
+    </script>
+
+
+
+    <script src="./Js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>

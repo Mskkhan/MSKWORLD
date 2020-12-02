@@ -1,0 +1,542 @@
+    @import url('../css/fonts.css');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /*.......... Global....variable.....*/
+    
+     :root {
+        /*      Theme colors        */
+        --text-gray: #3f4954;
+        --text-light: #686666da;
+        --bg-color: #0f0f0f;
+        --white: #ffffff;
+        --midnight: #104f55;
+        /* gradient color   */
+        --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+        /*      theme font-family   */
+        --Abel: 'Abel', cursive;
+        --Anton: 'Anton', cursive;
+        --Josefin: 'Josefin', cursive;
+        --Lexend: 'Lexend', cursive;
+        --Livvic: 'Livvic', cursive;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .container {
+        font-family: var(--Josefin);
+    }
+    /*............ Global variabl...  xx...*/
+    /*............ Header section....*/
+    
+    .header {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3)), url('../image/2.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+        position: relative;
+    }
+    
+    .header:before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        right: 0%;
+        left: 0%;
+        opacity: .4;
+        z-index: -1;
+        background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+    }
+    
+    .nav:before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        right: 0%;
+        left: 0%;
+        opacity: .4;
+        z-index: -1;
+        background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+    }
+    
+    .nav-item a {
+        color: #f3eaea;
+        font-weight: bold;
+        font-family: var(--Abel);
+    }
+    
+    .nav-item a:hover {
+        color: #0e2981;
+    }
+    
+    .header-section {
+        width: 100%;
+        text-align: center;
+        color: white;
+        height: inherit;
+        position: relative;
+    }
+    
+    .header-buttons a {
+        border: 1px solid #fff;
+        border-radius: 100px;
+        padding: 6px 12px;
+        margin: 0 5px;
+        outline: none;
+        font-family: var(--Livvic);
+        color: white;
+        font-weight: 1rem;
+        font-weight: 400;
+    }
+    
+    .header-buttons a:hover {
+        text-decoration: none;
+        color: #50d1c0;
+        background: #fff;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, .3);
+    }
+    /*............ navbar End.....XXX...*/
+    /*.......Contact css..*/
+    
+    .navbar a {
+        color: white;
+    }
+    
+    .btn {
+        background-color: #50d1c0!important;
+        border: 2px solid#fff!important;
+        padding: 0, 6px, 0, 6px!important;
+        margin: 4px!important;
+        font-weight: 10px;
+        font-family: var(--Abel);
+    }
+    
+    .form-group {
+        font-family: var(--Josefin);
+        font-weight: 300;
+    }
+    /*.......Contact end css...*/
+    /*.....Header Section...*/
+    
+    .section-div {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        font-size: 1.3rem;
+        padding: 10px 0 20px 0;
+        color: white;
+        font-family: var(--Josefin)
+    }
+    /*.....Header Section end...*/
+    /*.........font awosome header extra....*/
+    
+    .header-extradiv {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin: 100px 0;
+    }
+    
+    .extra-div {
+        background: white;
+        border: medium none;
+        padding: 50px!important;
+        border-radius: 3px;
+        transition: 0.3s;
+    }
+    
+    .extra-div h2 {
+        font-size: 0.9rem;
+        margin: 20px 0 15px 0;
+        font-weight: bold;
+        line-height: 1.1;
+        word-spacing: 4px;
+        font-family: var(--Lexend);
+    }
+    
+    .extra-div p {
+        font-family: var(--Josefin);
+    }
+    
+    .extra-div:hover {
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, .3);
+        transform: translateY(-20px);
+    }
+    /*   font awosome headerExtra....END ..XXX.....*/
+    /*........Extra section Header.....*/
+    
+    .serviceoffer {
+        background: #f7f7f9;
+        padding: 50px 0;
+        margin-bottom: 50px;
+    }
+    
+    .heading {
+        margin-bottom: 50px;
+    }
+    
+    .heading h1 {
+        font-family: var(--Josefin);
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .heading p {
+        font-family: var(--Lexend);
+        font-weight: 200;
+    }
+    
+    .service-div {
+        background: white;
+        border: medium none;
+        padding: 50px!important;
+        border-radius: 3px;
+        transition: 0.3s;
+    }
+    
+    .names {
+        font: bold;
+        text-transform: uppercase;
+        font-family: var(--Abel);
+    }
+    
+    .service-div h3 {
+        font-family: var(--Abel);
+        font: bold;
+        text-transform: uppercase;
+    }
+    
+    .service-div p {
+        font-family: var(--Josefin);
+    }
+    
+    .servic-icons {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: #2fccd0;
+    }
+    
+    .progress {
+        height: 0.6rem!important;
+        margin-bottom: 25px!important;
+    }
+    /*.....Blog Carousel   */
+    
+    .blog {
+        height: 100vh;
+        width: 100%;
+        background-image: url('../image/Abract01.png');
+        background-size: 65%;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    
+    .blog-post .blog-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        margin: 2rem 2rem;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+        height: 70vh;
+    }
+    
+    .blog-post {
+        padding-top: 1rem;
+        background-size: 100% 100%;
+    }
+    
+    .blog-tittle {
+        padding: 2rem 0;
+    }
+    
+    .btn-blog {
+        border: 1px solid #fff;
+        border-radius: 80px;
+        padding: 6px 12px;
+        margin: 0 5px;
+        outline: none;
+        font-family: var(--Livvic);
+        font-weight: 1rem;
+        font-weight: 400;
+    }
+    
+    .blog-tittle h3 {
+        font-family: var(--Josefin);
+        font: bold;
+    }
+    
+    .blog-content span {
+        display: block;
+        font-family: var(--Josefin);
+    }
+    /*......Project...*/
+    
+    .project-work {
+        width: 100%;
+        margin: 100px 0;
+        height: 60vh;
+    }
+    
+    .project-work .container {
+        padding: 4rem;
+        height: 10vh;
+    }
+    
+    .project-work h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    /*------Selling Price----*/
+    
+    .pricing {
+        width: 100%;
+        height: 100vh;
+        padding: 40px;
+        position: relative;
+        font-family: var(--Josefin);
+    }
+    
+    .lead {
+        font-family: var(--Josefin);
+        font-weight: 200;
+    }
+    
+    .pricing:before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        right: 0%;
+        left: 0%;
+        z-index: -1;
+        background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+    }
+    
+    .money {
+        font-size: 40px;
+        line-height: 1;
+        color: #1e5799;
+    }
+    
+    .card {
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, .3);
+    }
+    
+    .card:hover {
+        transform: translateY(-20px);
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, .3);
+    }
+    
+    .card:hover .card-header,
+    .card:hover .money {
+        color: #50d1c0;
+    }
+    
+    .card-footer a {
+        border: 1px solid#50d1c0;
+        border-radius: 80px;
+        padding: 3px 10px;
+        margin: 0 5px;
+        text-decoration-color: #0f0f0f;
+        outline: none;
+        font-family: var(--Livvic);
+        font-weight: 1rem;
+        font-weight: 400;
+    }
+    
+    .card-footer a:hover {
+        text-decoration: none;
+    }
+    
+    .card-header {
+        font-size: 20px;
+    }
+    
+    .card-tittle {
+        margin: 2rem 0!important;
+        padding: 20rem 0rem!important;
+    }
+    
+    .card-body {
+        padding: 30px 0px!important;
+    }
+    
+    .card-body li {
+        margin: 6px 0;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 1.6;
+        color: #606060;
+    }
+    /*.... Card ending or pricing ending  */
+    /*   client..Feedback  */
+    
+    .blogextra {
+        height: 100vh;
+        width: 100%;
+        background-image: url('../image/6.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    
+    .blog-postdiv .blog-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        margin: .6rem 2rem;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+        height: 70vh;
+    }
+    
+    .blog-postdiv {
+        padding-top: 1rem;
+        background-size: 100% 100%;
+    }
+    
+    .blog-tittlediv {
+        padding: 0rem .3rem;
+        margin: .3rem;
+    }
+    
+    .blog-postdiv h1 {
+        font-size: 18px;
+    }
+    
+    .blog-tittlediv p {
+        font-size: 13px;
+        margin: .2rem;
+    }
+    
+    .blog-tittlediv h2 {
+        font-size: 13px;
+    }
+    
+    .icons {
+        color: #0e2981;
+    }
+    /*servise  */
+    
+    .header-extraser {
+        margin: 16px;
+        padding: 0;
+        min-height: 78vh;
+        background: #060c21;
+        font-family: var(--Abel)
+    }
+    
+    .part-div {
+        position: relative;
+        width: 90%;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        grid-auto-rows: auto;
+    }
+    
+    .part-ser {
+        position: relative;
+        height: 300px;
+        background: #060c21;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: .1px solid#000;
+        margin: 2px 0 0;
+    }
+    
+    .part-ser .part:before {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        transform: skew(2deg, 2deg);
+        z-index: -1;
+        background: #fff;
+    }
+    
+    .part {
+        position: relative;
+        padding: 20px;
+    }
+    
+    .part h2 {
+        position: absolute;
+        top: -60px;
+        right: 20px;
+        margin: 0;
+        padding: 0;
+        font-size: 10em;
+        color: rgba(255, 255 255, .05, );
+        transition: 0.5s;
+    }
+    
+    .part-ser:hover .part h2 {
+        top: -140px;
+    }
+    
+    .part h3 {
+        margin: 0 0 10px;
+        padding: 0;
+        font-size: 24px;
+        font-weight: 500;
+        color: #fff;
+    }
+    
+    .part p {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-size: 15px;
+    }
+    
+    .part a {
+        position: relative;
+        margin: 20px 0 0;
+        padding: 8px 15px;
+        text-decoration: none;
+        border: 1px solid#fff;
+        display: inline-block;
+        color: #fff;
+        transition: 0.5s;
+        transform: translateY(-40px);
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .part-ser:hover .part a {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .part-ser .part a:hover {
+        color: #000;
+        background: #fff;
+        text-decoration: none;
+    }
